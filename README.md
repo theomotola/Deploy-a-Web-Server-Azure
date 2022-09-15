@@ -30,6 +30,12 @@ Before we get started, we want to create a policy that ensures all indexed resou
 
 Once you've  collected your dependencies, to deploy the scalable web server in Azure we need: 
 
+
+
+export ARM_CLIENT_ID=1d822286-b2a3-45bd-bebf-9bd9f719bbc5
+export ARM_CLIENT_SECRET=6GNB5c5p_5H.-odi_zffakesecret
+export ARM_SUBSCRIPTION_ID=850c12f5-152f-4692-a8e9-2a5d3b9f39db
+
 1. Deploy the packer image
 2. Deploy the infrastructure with Terraform template
 
