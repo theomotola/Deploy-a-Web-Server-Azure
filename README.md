@@ -22,3 +22,17 @@ Based on these, this project will use a Packer template and a Terraform template
 2. Install the [Azure command line interface](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
 3. Install [Packer](https://www.packer.io/downloads)
 4. Install [Terraform](https://www.terraform.io/downloads.html)
+
+## Deploy a Policy
+Before we get started, we want to create a policy that ensures all indexed resources are tagged. This will help us with organization and tracking, and make it easier to log when things go wrong.
+
+## Instructions
+
+Once you've  collected your dependencies, to deploy the scalable web server in Azure we need: 
+
+1. Deploy the packer image
+2. Deploy the infrastructure with Terraform template
+
+### :pushpin: Deploy the Packer Image
+
+Packer is a server templating software. It will deploy virtual machines images. After deploying the virtual machines with the help of packer template, make sure to delete the packer images as it does not maintain the state.
