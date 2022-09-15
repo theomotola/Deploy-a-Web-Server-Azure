@@ -1,5 +1,5 @@
 # Deploy-a-Web-Server-Azure
-Deploying a werbserver on azure
+
 
 Introduction
 The infrastructure as code gives us a huge advantage in defining, deploying, updating and destroying our infrastructure. So to set up an image which contains our application for repeatable deployments, we will use packer to create the virtual machine images(in JSON format).
