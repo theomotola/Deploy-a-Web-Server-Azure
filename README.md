@@ -35,4 +35,4 @@ Once you've  collected your dependencies, to deploy the scalable web server in A
 
 ### :pushpin: Deploy the Packer Image
 
-Packer is a server templating software. It will deploy virtual machines images. After deploying the virtual machines with the help of packer template, make sure to delete the packer images as it does not maintain the state.
+Packer is a server templating software. It will deploy virtual machines images. After deploying the virtual machines with the help of packer template, ensure the packer images are deleted as it does not maintain the state.
