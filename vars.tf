@@ -10,7 +10,7 @@ variable "environment"{
 
 variable "location" {
   description = "The Azure Region in which all resources in this example should be created."
-  default = "US East" 
+  default = "East US" 
 }
 
 variable "username"{
