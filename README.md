@@ -1,5 +1,4 @@
-# Deploy-a-Web-Server-Azure
-
+# AZURE INFRASTRUCTURE OPERATIONS: Deploy-a-Web-Server
 
 ## Introduction
 
