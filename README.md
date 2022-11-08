@@ -2,11 +2,11 @@ u# AZURE INFRASTRUCTURE OPERATIONS: Deploy-a-Web-Server
 
 ## Introduction
 
-The infrastructure as code gives us a huge advantage in defining, deploying, updating and destroying our infrastructure. So to set up an image which contains our application for repeatable deployments, we will use packer to create the virtual machine images(in JSON format).
+The ability to define, deploy, update, and delete infrastructure as code provides us a significant edge. So, to produce virtual machine images including our application for repeatable deployments, we will utilise packer (in JSON format).
 
-Terraform also expands on this by not only deploying virtual machines but also storage, networking and security entities across multiple infrastructures, clouds and vendors.
+Terraform takes this a step further by deploying not only virtual machines but also storage, networking, and security entities across numerous infrastructures, clouds, and vendors.
 
-Based on these, this project will use a Packer template and a Terraform template to deploy a customizable, scalable web server in Azure.
+Based on these, this project will install a flexible, scalable web server in Azure using a Packer template and a Terraform template.
 
 ## Getting Started
 
