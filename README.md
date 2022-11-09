@@ -43,13 +43,18 @@ Packer is a server templating software. It will deploy virtual machines images. 
 
 Lastly, I created and Updated Azure Resouces with Terraform Template
 
-Specify the Variables 
+### :pushpin: Specify the Variables 
 To use the variables for my main.tf, I specifed the variables like below in my vars.tf file.
+```tf
 variable "environment"{
   description = "The environment should be used for all resources in this example"
   default = "test"
 }
+```
+
 And in my main.tf, I can call the variables like
+```tf
 var.environment
+```
 
 
