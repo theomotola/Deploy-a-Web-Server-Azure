@@ -42,3 +42,14 @@ export ARM_SUBSCRIPTION_ID
 Packer is a server templating software. It will deploy virtual machines images. After deploying the virtual machines with the help of packer template, ensure the packer images are deleted as it does not maintain the state.
 
 Lastly, I created and Updated Azure Resouces with Terraform Template
+
+Specify the Variables 
+To use the variables for my main.tf, I specifed the variables like below in my vars.tf file.
+variable "environment"{
+  description = "The environment should be used for all resources in this example"
+  default = "test"
+}
+And in my main.tf, I can call the variables like
+var.environment
+
+
