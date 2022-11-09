@@ -51,10 +51,15 @@ variable "environment"{
   default = "test"
 }
 ```
-
+or 
+To specify the number of VMs
+```tf
+variable "vm_count"{
+  default = "2"
+}
+```
 And in my main.tf, I can call the variables like
 ```tf
 var.environment
 ```
-
 
