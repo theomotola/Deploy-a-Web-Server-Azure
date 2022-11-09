@@ -63,3 +63,6 @@ And in my main.tf, I can call the variables like
 var.environment
 ```
 
+### :pushpin: Deploy the Infrastructure Using Terraform
+Next, I deployed the resources using the Terraform template.
+
